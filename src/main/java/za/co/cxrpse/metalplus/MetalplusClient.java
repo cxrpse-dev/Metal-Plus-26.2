@@ -1,4 +1,4 @@
-package za.co.crxpe.metalplus;
+package za.co.cxrpse.metalplus;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
