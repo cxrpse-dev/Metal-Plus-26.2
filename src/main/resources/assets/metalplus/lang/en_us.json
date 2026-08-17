@@ -1,13 +1,3 @@
 {
-  "itemGroup.metalplus": "Example Mod Tab",
-  "block.metalplus.example_block": "Example Block",
-  "item.metalplus.example_item": "Example Item",
-
-  "metalplus.configuration.title": "Metalplus Configs",
-  "metalplus.configuration.section.metalplus.common.toml": "Metalplus Configs",
-  "metalplus.configuration.section.metalplus.common.toml.title": "Metalplus Configs",
-  "metalplus.configuration.items": "Item List",
-  "metalplus.configuration.logDirtBlock": "Log Dirt Block",
-  "metalplus.configuration.magicNumberIntroduction": "Magic Number Text",
-  "metalplus.configuration.magicNumber": "Magic Number"
+  "block.metalplus.anthracite_block": "Block of Anthracite"
 }
