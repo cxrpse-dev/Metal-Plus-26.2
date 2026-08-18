@@ -1,5 +1,6 @@
 package za.co.cxrpse.metalplus;
 
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -14,6 +15,8 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import za.co.cxrpse.metalplus.block.ModBlocks;
+import za.co.cxrpse.metalplus.creativemodtab.ModCreativeModTabs;
+import za.co.cxrpse.metalplus.item.ModItems;
 
 @Mod(Metalplus.MOD_ID)
 public class Metalplus {
@@ -31,7 +34,9 @@ public class Metalplus {
         NeoForge.EVENT_BUS.register(this);
 
 
-        ModBlocks.register(modEventBus);
+        ModBlocks.register(modEventBus); // registers mod block data into the game.
+        ModCreativeModTabs.register(modEventBus); // registers the creative mod tab(s) into the game.
+        ModItems.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -44,8 +49,15 @@ public class Metalplus {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Adds the modded blocks & items into the vanilla creative mod tabs.
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BLOCK_ANTHRACITE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ANTHRACITE);
+        }
 
     }
 

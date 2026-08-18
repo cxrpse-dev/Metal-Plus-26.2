@@ -1,3 +1,5 @@
 {
-  "block.metalplus.anthracite_block": "Block of Anthracite"
+  "item.metalplus.anthracite":  "Anthracite",
+  "block.metalplus.block_anthracite": "Block of Anthracite",
+  "creativetab.metalplus.metallurgy": "Metallurgy"
 }
