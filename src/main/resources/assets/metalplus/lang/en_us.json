@@ -1,6 +1,8 @@
 {
+  "_COMMENT": "ITEM LOCALIZATION",
   "item.metalplus.anthracite":  "Anthracite",
 
+  "_COMMENT": "BLOCK LOCALIZATION",
   "block.metalplus.block_anthracite": "Block of Anthracite",
   "block.metalplus.malachite": "Malachite",
   "block.metalplus.polished_malachite": "Polished Malachite",
