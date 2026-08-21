@@ -1,0 +1,12 @@
+{
+  "_COMMENT": "ITEM LOCALIZATION",
+  "item.metalplus.anthracite":  "Antrasiet",
+
+  "_COMMENT": "BLOCK LOCALIZATION",
+  "block.metalplus.block_anthracite": "Blok antrasiet",
+  "block.metalplus.malachite": "Malagiet",
+  "block.metalplus.polished_malachite": "Gepoleerde malagiet",
+  "block.metalplus.brick_malachite": "Malagietstene",
+
+  "creativetab.metalplus.metallurgy": "Metallurgie+ items"
+}
