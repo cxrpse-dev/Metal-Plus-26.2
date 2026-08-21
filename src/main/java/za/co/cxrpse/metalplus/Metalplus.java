@@ -53,6 +53,9 @@ public class Metalplus {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BLOCK_ANTHRACITE);
+            event.accept(ModBlocks.MALACHITE);
+            event.accept(ModBlocks.POLISHED_MALACHITE);
+            event.accept(ModBlocks.BRICK_MALACHITE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {

@@ -20,6 +20,21 @@ public class ModBlocks {
             properties -> new Block(properties.strength(3.5f, 3.0f)
                     .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
 
+    // MALACHITE
+    public static final DeferredBlock<Block> MALACHITE = registerBlock("malachite",
+            properties -> new Block(properties.strength(0.75f, 1.25f)
+                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+
+    // POLISHED_MALACHITE
+    public static final DeferredBlock<Block> POLISHED_MALACHITE = registerBlock("polished_malachite",
+            properties -> new Block(properties.strength(0.75f, 1.25f)
+                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+
+    // BRICK_MALACHITE
+    public static final DeferredBlock<Block> BRICK_MALACHITE = registerBlock("brick_malachite",
+            properties -> new Block(properties.strength(0.75f, 1.25f)
+                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+
 
 
 

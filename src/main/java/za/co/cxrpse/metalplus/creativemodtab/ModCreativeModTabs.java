@@ -29,6 +29,9 @@ public class ModCreativeModTabs {
 
                         // BLOCKS
                         output.accept(ModBlocks.BLOCK_ANTHRACITE);
+                        output.accept(ModBlocks.MALACHITE);
+                        output.accept(ModBlocks.POLISHED_MALACHITE);
+                        output.accept(ModBlocks.BRICK_MALACHITE);
 
                     }).build());
 

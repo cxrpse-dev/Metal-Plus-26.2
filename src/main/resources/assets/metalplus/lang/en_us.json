@@ -2,6 +2,9 @@
   "item.metalplus.anthracite":  "Anthracite",
 
   "block.metalplus.block_anthracite": "Block of Anthracite",
+  "block.metalplus.malachite": "Malachite",
+  "block.metalplus.polished_malachite": "Polished Malachite",
+  "block.metalplus.brick_malachite": "Malachite Bricks",
 
   "creativetab.metalplus.metallurgy": "Metallurgy+ Items"
 }

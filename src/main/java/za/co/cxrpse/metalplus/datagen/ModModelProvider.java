@@ -23,5 +23,9 @@ public class ModModelProvider extends ModelProvider{
 
         // BLOCK
         blockModels.createTrivialCube(ModBlocks.BLOCK_ANTHRACITE.get());
+
+        blockModels.createTrivialCube(ModBlocks.MALACHITE.get());
+        blockModels.createTrivialCube(ModBlocks.POLISHED_MALACHITE.get());
+        blockModels.createTrivialCube(ModBlocks.BRICK_MALACHITE.get());
     }
 }
